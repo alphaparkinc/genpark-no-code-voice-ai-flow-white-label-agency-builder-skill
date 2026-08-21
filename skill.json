@@ -1,0 +1,35 @@
+{
+  "name": "genpark-no-code-voice-ai-flow-white-label-agency-builder-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - No-code voice AI flow designer with industry-specific templates and white-label reseller packaging for agencies.",
+  "author": "genpark",
+  "category": "voice",
+  "tags": [
+    "no-code-voice",
+    "white-label",
+    "agency-builder",
+    "industry-templates",
+    "synthflow"
+  ],
+  "inputs": {
+    "industry_vertical": {
+      "type": "string"
+    },
+    "agency_branding": {
+      "type": "object"
+    }
+  },
+  "outputs": {
+    "generated_flow": {
+      "type": "object"
+    },
+    "white_label_package": {
+      "type": "object"
+    },
+    "estimated_deployment_minutes": {
+      "type": "integer"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
